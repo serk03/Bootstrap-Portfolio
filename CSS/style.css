@@ -1,0 +1,16 @@
+.skill-card-body {
+  border: 2px solid blue;
+}
+
+/* Hero Section Start */
+/* ------------------------------------------------------------- */
+.heroBackground {
+  background-color: aqua;
+}
+/* Hero Section End */
+
+/* Work Section Start */
+.workBackground {
+  background-color: cadetblue;
+}
+/* Work Section End */
