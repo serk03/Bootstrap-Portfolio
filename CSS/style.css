@@ -5,7 +5,6 @@
 /* Navigation Section Start */
 
 .customNav {
-  position: fixed;
   width: 100%;
   background: url("../images/transparency.png");
   background-color: transparent !important;
@@ -38,17 +37,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100vh;
+  border: 5px solid yellowgreen;
 }
 /* Hero Section End */
 
 /* About Me Section Start */
 /* ------------------------------------------------------------- */
+.aboutMeContainer {
+  background-color: purple;
+}
 
+.aboutMeImg {
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+}
 /* About Me Section End */
 
 /* Work Section Start */
 .workBackground {
   background-color: cadetblue;
+  border: 5px solid orangered;
 }
 
 .valueProp {
@@ -56,3 +65,19 @@
   margin-bottom: 15px;
 }
 /* Work Section End */
+
+/* My Skill Section Start */
+/* ------------------------------------------------------------- */
+.skillContainer {
+  border: 5px solid green;
+}
+
+/* Footer Section End */
+
+/* My Skill Section Start */
+/* ------------------------------------------------------------- */
+.footerContainer {
+  border: 5px solid blue;
+}
+
+/* Footer Section End */
