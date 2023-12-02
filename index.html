@@ -77,13 +77,16 @@
 
     <!-- About Me Section Start-->
     <!----------------------------------------------------------------->
-    <div class="container-fliud mt-5">
+    <div class="container-fluid mt-5 aboutMeContainer">
       <h1>About Me</h1>
-      <div class="row aboutMeContainer">
-        <div class="aboutMeImg col-3">
-          <img src="./images/refund.png" />
+      <div
+        class="row d-flex flex-row justify-content-evenly align-items-center w-50 py-5 mx-auto"
+      >
+        <!-- <div class="AboutMeContainer row mb-3 w-75"> -->
+        <div class="aboutMeImg col-lg-3 col-sm-12 me-5">
+          <img class="" src="./images/refund.png" />
         </div>
-        <div class="col-8">
+        <div class="col-lg-6 col-sm-12 p-0 m-0">
           <h3>The best prices</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -91,6 +94,7 @@
           </p>
           <a href="#" class="btn btn-primary">Contact Us </a>
         </div>
+        <!-- </div> -->
       </div>
     </div>
     <!-- About Me Section End-->
@@ -99,74 +103,50 @@
     <!----------------------------------------------------------------->
     <div class="container-fluid px-4 py-5 mt-5 workBackground">
       <h1>Work Section</h1>
-      <div class="row valueProp">
-        <div class="sideAccent"></div>
-        <div class="imageContainer col-3">
-          <img src="./images/refund.png" />
+      <div class="d-flex align-items-center flex-column">
+        <div class="card mb-3 w-75">
+          <div class="row g-0">
+            <div class="col-md-2 col-sm-12">
+              <img src="..." class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-8">
-          <h3>The best prices</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Contact Us </a>
-        </div>
-      </div>
-      <div class="row valueProp">
-        <div class="sideAccent"></div>
-        <div class="imageContainer col-3">
-          <img src="./images/refund.png" />
-        </div>
-        <div class="col-8">
-          <h3>The best prices</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Contact Us </a>
-        </div>
-      </div>
-      <div class="row valueProp">
-        <div class="sideAccent"></div>
-        <div class="imageContainer col-3">
-          <img src="./images/refund.png" />
-        </div>
-        <div class="col-8">
-          <h3>The best prices</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Contact Us </a>
-        </div>
-      </div>
-      <div class="row valueProp">
-        <div class="sideAccent"></div>
-        <div class="imageContainer col-3">
-          <img src="./images/refund.png" />
-        </div>
-        <div class="col-8">
-          <h3>The best prices</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Contact Us </a>
-        </div>
-      </div>
-      <div class="row valueProp">
-        <div class="sideAccent"></div>
-        <div class="imageContainer col-3">
-          <img src="./images/refund.png" />
-        </div>
-        <div class="col-8">
-          <h3>The best prices</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Contact Us </a>
+        <div class="card mb-3 w-75">
+          <div class="row g-0">
+            <div class="col-md-2 col-sm-12">
+              <img src="..." class="img-fluid rounded-start" alt="..." />
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -174,7 +154,7 @@
 
     <!--My Skill Section Start-->
     <!----------------------------------------------------------------->
-    <div class="container-fluid px-4 py-5 skillContainer" id="icon-grid">
+    <div class="container-fluid mt-5 px-4 py-5 skillContainer" id="icon-grid">
       <h1 class="pb-2 border-bottom">Skill Section</h1>
       <div
         class="row row-cols-1 row-cols-sm-12 row-cols-md-3 row-cols-lg-4 g-4 py-4"
@@ -212,7 +192,7 @@
 
     <!-- Footer Section Start -->
     <!----------------------------------------------------------------->
-    <div class="container footerContainer">
+    <div class="container-fluid mt-5 footerContainer">
       <footer class="py-5">
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
