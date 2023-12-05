@@ -133,6 +133,20 @@ Provide instructions and examples for use. Include screenshots as needed.
 -Contact Me - By clicking on this navigation link it will take you to the Contact Me section of the website. In this section there clickable icons which will take you to my profile pages on either: Twitter, Linkedin or Github.
 <br>
 
+**Hero Section**
+- Buttons within this section do not link to anything
+- Contact me button scrolls to bottom of pages for access to icons.
+<br>
+
+**About Me Section**
+- Buttons within this section do not link to anything
+- Contact me button scrolls to bottom of pages for access to icons.
+<br>
+
+**My Work Section**
+-contains projects which will animate when hovered over.
+-each project section contains two links. One for live site and the other will take you to the repository of the site on github.
+
 
 **Scroll Function**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
