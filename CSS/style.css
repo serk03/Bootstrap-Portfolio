@@ -40,9 +40,32 @@ a i {
   width: 30px;
 }
 
-h1[.border-bottom] {
-  background-color: #17252a;
+p {
+  color: #17252a;
+  font-weight: 400;
 }
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+  font-family: "Roboto", sans-serif;
+}
+
+/* h1[.border-bottom] {
+  background-color: #17252a;
+} */
 
 /* Navigation Section Start */
 .customNav,
@@ -103,13 +126,14 @@ h1[.border-bottom] {
 .HeroheadingColour {
   color: #17252a !important;
   font-weight: 900;
-  -webkit-text-stroke: 2px feffff;
+  -webkit-text-stroke: 2px #feffff;
 }
 
 .headingColour {
-  color: #feffff !important;
+  background-color: #17252a;
+  color: #2b7a78 !important;
   font-weight: 900;
-  -webkit-text-stroke: 2px #17252a;
+  -webkit-text-stroke: 2px #feffff;
 }
 
 /* Hero Section End */
@@ -120,9 +144,12 @@ h1[.border-bottom] {
   background-color: rgba(222, 242, 241, 0.8) !important;
   border: 2px solid #3aafa9;
 }
+.imgCon {
+  border: 10px dotted #3aafa9;
+  border-radius: 50%;
+}
 
 .aboutMeImg {
-  border: 1px solid red;
   height: 300px;
   width: 300px;
 }
