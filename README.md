@@ -146,7 +146,7 @@ Provide instructions and examples for use. Include screenshots as needed.
   - Twitter Link(Icon) - will take user to Serkan Onal Twitter profile page. 
 <br> 
 
-![alt text](/images/screencapture-127-0-0-1-5501-index-html-2023-12-05-22_30_44.png)
+![alt text](./images/screencapture-127-0-0-1-5501-index-html-2023-12-05-22_30_44.png)
 
 ## Credits
 
