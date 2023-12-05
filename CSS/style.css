@@ -1,20 +1,62 @@
+:root {
+  --paragraph-text-colour: #4a6163;
+  /*Header colours*/
+  --header-bg-color: #388087;
+  --navbar-h1-bg-color: lightseagreen;
+  --nav-bar-h1-colour: #f6f6f2;
+  --nav-link-hover-colour: darkslategray;
+  --nav-anchor-text-colour: #eeeeee;
+  /*banner colours*/
+  --banner-h2-bg-colour: lightseagreen;
+  --banner-h2-font-color: #f6f6f2;
+  --profile-pic-border-color: lightseagreen;
+  /*subheading colours*/
+  --grid-subheading-border-colour: #6fb3b8;
+  --grid-subheading-h2-font-colour: lightseagreen;
+
+  /*work-project-grid-colours*/
+  --work-prog-grid-border-col: #6fb3b8;
+  --work-prog-grid-card-cotainer-bg-color: #6fb3b8;
+
+  /*contact section colors*/
+  --span-contact-link-head-col: #388087;
+  --contact-anchor-hover-colour: lightseagreen;
+}
+
 html {
   overflow-x: hidden;
+}
+
+body {
+  background-color: #feffff;
+}
+
+svg {
+  height: 40px;
+  width: 40px;
+}
+a i {
+  height: 30px;
+  width: 30px;
 }
 
 /* Navigation Section Start */
 .customNav {
   width: 100%;
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
+  background-color: rgba(58, 175, 169, 0.8) !important;
   background-size: cover;
   z-index: 10;
 }
 .navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
-  color: white;
+  font-weight: 500;
+  color: #17252a;
 }
+.navbar-nav:hover {
+  color: #feffff;
+}
+
 .navbar-brand img {
   padding-right: 15px;
   width: 65px;
@@ -23,7 +65,15 @@ html {
   margin: 0px 15px;
 }
 .customNav a {
-  color: white !important;
+  color: #17252a !important;
+  font-weight: 500;
+}
+.customNav a:hover {
+  color: #feffff;
+}
+
+.nav-img {
+  height: 75px;
 }
 
 /* Navigation Section End */
@@ -31,20 +81,33 @@ html {
 /* Hero Section Start */
 /* ------------------------------------------------------------- */
 .heroBackground {
-  background-color: aqua;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/pexels-photo-777001.webp");
   background-size: cover;
-  max-width: 100vh;
-  border: 5px solid yellowgreen;
+  background-position: center;
 }
+.heroOverLay {
+  background-color: rgba(58, 175, 169, 0.8) !important;
+  border: 2px solid #feffff;
+}
+.HeroheadingColour {
+  color: #17252a !important;
+  font-weight: 900;
+  -webkit-text-stroke: 2px feffff;
+}
+
+.headingColour {
+  color: #feffff !important;
+  font-weight: 900;
+  -webkit-text-stroke: 2px #17252a;
+}
+
 /* Hero Section End */
 
 /* About Me Section Start */
 /* ------------------------------------------------------------- */
 .aboutMeContainer {
-  background-color: purple;
-  border: 5px solid gold;
+  background-color: rgba(222, 242, 241, 0.8) !important;
+  border: 2px solid #3aafa9;
 }
 
 .aboutMeImg {
@@ -55,11 +118,24 @@ html {
 /* About Me Section End */
 
 /* Work Section Start */
+/* ------------------------------------------------------------- */
 .workBackground {
-  background-color: cadetblue;
-  border: 5px solid orangered;
+  background-color: rgba(222, 242, 241, 0.8) !important;
+  border: 2px solid #3aafa9;
 }
-
+.projectBackground {
+  color: #17252a;
+  background-color: #3aafa9;
+  border: 2px solid #2b7a78;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.projectBackground:hover {
+  color: #feffff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transform: scale(1.1);
+}
 .valueProp {
   border: 5px solid hotpink;
 }
@@ -73,7 +149,8 @@ html {
 /* My Skill Section Start */
 /* ------------------------------------------------------------- */
 .skillContainer {
-  border: 5px solid green;
+  background-color: rgba(222, 242, 241, 0.8) !important;
+  border: 2px solid #3aafa9;
 }
 
 /* My Skill Section End */
@@ -85,7 +162,7 @@ html {
 }
 
 .footerContainer {
-  border: 5px solid blue;
+  background-color: rgba(58, 175, 169, 0.8) !important;
 }
 
 /* Footer Section End */
