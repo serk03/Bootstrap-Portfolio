@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  background-color: #feffff;
+  background-color: #f7f9fb;
 }
 
 svg {
@@ -40,21 +40,29 @@ a i {
   width: 30px;
 }
 
+h1[.border-bottom] {
+  background-color: #17252a;
+}
+
 /* Navigation Section Start */
-.customNav {
+.customNav,
+.dropdown-menu {
   width: 100%;
   background-color: rgba(58, 175, 169, 0.8) !important;
   background-size: cover;
   z-index: 10;
 }
-.navbar-nav {
+.navbar-nav,
+.dropdown-menu {
   margin-left: auto;
   margin-right: 0 !important;
   font-weight: 500;
-  color: #17252a;
+  color: #17252a !important;
 }
-.navbar-nav:hover {
-  color: #feffff;
+.navbar-nav,
+.dropdown-menu,
+.nav-item:hover {
+  color: #feffff !important;
 }
 
 .navbar-brand img {
@@ -64,11 +72,13 @@ a i {
 .nav-item {
   margin: 0px 15px;
 }
-.customNav a {
+.customNav,
+.dropdown-menum .nav-item a {
   color: #17252a !important;
   font-weight: 500;
 }
-.customNav a:hover {
+.customNav,
+.nav-item a:hover {
   color: #feffff;
 }
 
@@ -84,6 +94,7 @@ a i {
   background-image: url("../images/pexels-photo-777001.webp");
   background-size: cover;
   background-position: center;
+  border: 2px solid #3aafa9;
 }
 .heroOverLay {
   background-color: rgba(58, 175, 169, 0.8) !important;
@@ -151,6 +162,21 @@ a i {
 .skillContainer {
   background-color: rgba(222, 242, 241, 0.8) !important;
   border: 2px solid #3aafa9;
+}
+
+.feature {
+  color: #17252a !important;
+  background-color: #3aafa9 !important;
+  border: 2px solid #2b7a78 !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
+}
+
+.feature:hover {
+  color: #feffff !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transform: scale(1.1);
 }
 
 /* My Skill Section End */
