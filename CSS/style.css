@@ -6,6 +6,19 @@ body {
   background-color: #f7f9fb;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+  font-family: "Roboto", sans-serif;
+}
+
 svg {
   height: 40px;
   width: 40px;
@@ -23,19 +36,6 @@ p {
 h5 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-ul,
-li {
-  font-family: "Roboto", sans-serif;
 }
 
 /* Navigation Section Start */
@@ -118,6 +118,44 @@ li {
   font-size: 1.5rem;
 }
 
+.lead-highlight {
+  font-weight: 700;
+  color: #feffff;
+}
+
+.btn-primary {
+  background-color: #17252a;
+  border: 2px solid #feffff;
+}
+
+.btn-primary:hover {
+  background-color: #feffff;
+  color: #17252a;
+  border: 2px solid #17252a;
+}
+
+.btn-outline-secondary {
+  border: 2px solid #17252a;
+  color: #17252a;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #3aafa9;
+  color: #feffff;
+  border: 2px solid #feffff;
+}
+
+.contact-me-btn {
+  background-color: #feffff;
+  color: #2b7a78;
+}
+.contact-me-btn a {
+  text-decoration: none;
+  color: #2b7a78;
+}
+.contact-me-btn a:hover {
+  color: #17252a;
+}
 /* Hero Section End */
 
 /* About Me Section Start */
@@ -144,6 +182,13 @@ li {
   font-weight: 500;
   font-size: 1.5rem;
 }
+
+.about-btn-2:hover {
+  background-color: #3aafa9;
+  color: #feffff;
+  border: 2px solid #17252a;
+}
+
 /* About Me Section End */
 
 /* Work Section Start */
@@ -233,5 +278,8 @@ li {
   background-color: rgba(58, 175, 169, 0.8) !important;
   border: 5px solid #2b7a78;
 }
-
+.foot-icon:hover {
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 /* Footer Section End */
