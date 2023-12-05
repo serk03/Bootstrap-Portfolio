@@ -1,28 +1,3 @@
-:root {
-  --paragraph-text-colour: #4a6163;
-  /*Header colours*/
-  --header-bg-color: #388087;
-  --navbar-h1-bg-color: lightseagreen;
-  --nav-bar-h1-colour: #f6f6f2;
-  --nav-link-hover-colour: darkslategray;
-  --nav-anchor-text-colour: #eeeeee;
-  /*banner colours*/
-  --banner-h2-bg-colour: lightseagreen;
-  --banner-h2-font-color: #f6f6f2;
-  --profile-pic-border-color: lightseagreen;
-  /*subheading colours*/
-  --grid-subheading-border-colour: #6fb3b8;
-  --grid-subheading-h2-font-colour: lightseagreen;
-
-  /*work-project-grid-colours*/
-  --work-prog-grid-border-col: #6fb3b8;
-  --work-prog-grid-card-cotainer-bg-color: #6fb3b8;
-
-  /*contact section colors*/
-  --span-contact-link-head-col: #388087;
-  --contact-anchor-hover-colour: lightseagreen;
-}
-
 html {
   overflow-x: hidden;
 }
@@ -63,50 +38,44 @@ li {
   font-family: "Roboto", sans-serif;
 }
 
-/* h1[.border-bottom] {
-  background-color: #17252a;
-} */
-
 /* Navigation Section Start */
-.customNav,
-.dropdown-menu {
+.navbar-brand {
+  font-weight: 700;
+  color: #feffff !important;
+  font-size: 1.5rem;
+}
+.customNav {
   width: 100%;
   background-color: rgba(58, 175, 169, 0.8) !important;
   background-size: cover;
   z-index: 10;
 }
-.navbar-nav,
 .dropdown-menu {
+  background-color: rgba(58, 175, 169, 0.8);
+}
+.navbar-nav {
   margin-left: auto;
   margin-right: 0 !important;
-  font-weight: 500;
   color: #17252a !important;
-}
-.navbar-nav,
-.dropdown-menu,
-.nav-item:hover {
-  color: #feffff !important;
 }
 
 .navbar-brand img {
   padding-right: 15px;
   width: 65px;
 }
-.nav-item {
-  margin: 0px 15px;
-}
-.customNav,
-.dropdown-menum .nav-item a {
-  color: #17252a !important;
-  font-weight: 500;
-}
-.customNav,
-.nav-item a:hover {
-  color: #feffff;
-}
 
 .nav-img {
   height: 75px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+  font-weight: 700 !important;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #feffff;
 }
 
 /* Navigation Section End */
@@ -117,11 +86,11 @@ li {
   background-image: url("../images/pexels-photo-777001.webp");
   background-size: cover;
   background-position: center;
-  border: 2px solid #3aafa9;
+  border: 5px solid #3aafa9;
 }
 .heroOverLay {
   background-color: rgba(58, 175, 169, 0.8) !important;
-  border: 2px solid #feffff;
+  border: 5px solid #feffff;
 }
 .HeroheadingColour {
   color: #17252a !important;
@@ -131,9 +100,22 @@ li {
 
 .headingColour {
   background-color: #17252a;
+  border: 5px solid #2b7a78;
   color: #2b7a78 !important;
   font-weight: 900;
   -webkit-text-stroke: 2px #feffff;
+}
+
+.introLead {
+  color: #17252a;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.lead {
+  color: #17252a;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 /* Hero Section End */
@@ -142,7 +124,7 @@ li {
 /* ------------------------------------------------------------- */
 .aboutMeContainer {
   background-color: rgba(222, 242, 241, 0.8) !important;
-  border: 2px solid #3aafa9;
+  border: 5px solid #3aafa9;
 }
 .imgCon {
   border: 10px dotted #3aafa9;
@@ -153,18 +135,27 @@ li {
   height: 300px;
   width: 300px;
 }
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 /* About Me Section End */
 
 /* Work Section Start */
 /* ------------------------------------------------------------- */
 .workBackground {
   background-color: rgba(222, 242, 241, 0.8) !important;
-  border: 2px solid #3aafa9;
+  border: 5px solid #3aafa9;
 }
 .projectBackground {
   color: #17252a;
   background-color: #3aafa9;
-  border: 2px solid #2b7a78;
+  border: 5px solid #2b7a78;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -174,13 +165,30 @@ li {
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   transform: scale(1.1);
 }
-.valueProp {
-  border: 5px solid hotpink;
+
+.work-images {
+  height: 50%;
 }
 
-.imageContainer img {
-  height: 200px;
-  width: 300px;
+.card-title {
+  font-weight: 700;
+}
+.work-card-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.project-links {
+  list-style: none;
+  padding: 0 0 10px 0;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.project-links a {
+  color: #17252a;
+}
+.project-links a:hover {
+  color: #feffff;
 }
 /* Work Section End */
 
@@ -188,34 +196,42 @@ li {
 /* ------------------------------------------------------------- */
 .skillContainer {
   background-color: rgba(222, 242, 241, 0.8) !important;
-  border: 2px solid #3aafa9;
+  border: 5px solid #3aafa9;
 }
 
 .feature {
   color: #17252a !important;
   background-color: #3aafa9 !important;
-  border: 2px solid #2b7a78 !important;
+  border: 5px solid #2b7a78 !important;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
 }
 
 .feature:hover {
-  color: #feffff !important;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   transform: scale(1.1);
 }
 
+.feature p:hover {
+  color: #feffff !important;
+}
+
+.skillHeading {
+  font-weight: 500;
+}
+
+.skill-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
 /* My Skill Section End */
 
 /* Footer Section Start */
 /* ------------------------------------------------------------- */
-.skill-card-body {
-  border: 2px solid blue;
-}
-
 .footerContainer {
   background-color: rgba(58, 175, 169, 0.8) !important;
+  border: 5px solid #2b7a78;
 }
 
 /* Footer Section End */
